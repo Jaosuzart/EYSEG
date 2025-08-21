@@ -69,7 +69,7 @@ Abra o arquivo index.html no navegador.
 
 📸 Demonstração
 
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/d0dfa11a-32eb-42f1-91e8-f3d74f0ee5a2" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/8f937baa-033a-404b-840c-1b59498a44f4" />
 
 
 🤝 Contribuição
@@ -87,10 +87,7 @@ Envie sua branch (git push origin minha-feature)
 Abra um Pull Request 🚀
 
 📬 Contato
-
 👤 Autor: João Marcelo Suzart
 📧 Email: [seu-email-aqui]
 🌐 GitHub: Jaosuzart
-# projeto-EYSEG
-# EYSEG
 # EYSEG
