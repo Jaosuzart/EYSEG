@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Especialistas em venda de paines solares oferecendo soluções inovadoras para otimização de processos empresariais. Conheça nossos serviços e entre em contato!">
+    <title>Eyseg</title>
+    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="shortcut icon" href="./imagens/logo.jpg" type="image/png">
+</head>
+
+<body>
+    <header class="container-cabecalho">
+        <img src="imagens/logo.jpg" alt="Logo da empresa" title="Inteligência artificial" class="logo">
+        <h3>Eyseg - FAQ seção de perguntas e respostas </h3>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+    <nav class="container-navegacao" id="nav-menu">
+        <button id="close-menu-btn" class="close-menu-btn" aria-label="Fechar menu">&times;</button>
+        <ul class="nav-menu">
+            <li><a href="index.html">Quem somos</a></li>
+            <li><a href="servico.html">Serviços</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="Faq.html">Faq</a></li>
+        </ul>
+    </nav>
+    <section class="faq-section animate-on-scroll">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-container" id="faq-container">
+            <div class="faq-item">
+                <h3 class="faq-question">Quanto custa a energia solar?</h3>
+                <p class="faq-answer">Os sistemas de energia solar são dimensionados exclusivamente a cada projeto de acordo com o consumo elétrico que precisa ser atendido e outras características relacionadas ao imóvel e local de instalação. Todas essas informações são calculadas pela empresa de energia solar para definir o tamanho e preço final do seu sistema fotovoltaico. 
+</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Como funciona o sistema de energia solar fotovoltaica?</h3>
+                <p class="faq-answer">Os sistemas de energia solar funcionam a partir de um painel fotovoltaico e outros equipamentos do kit solar que convertem a luz do sol diretamente em energia elétrica. Essa energia pode suprir até todo o consumo elétrico de uma casa, empresa, propriedade rural ou mesmo uma indústria. 
+
+.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Como eu faço para instalar energia solar?</h3>
+                <p class="faq-answer">A instalação de um projeto fotovoltaico é feita por empresas especializadas em energia solar, que cuidam de todas as etapas técnicas e burocráticas do processo e entregam para você ver  o sistema funcionando, qualquer duvida entre em contato nestes links: <a href="https://wa.me/557192873704" target="_blank">WhatsApp</a> ou <a
+                        href="https://www.linkedin.com/in/suaempresa" target="_blank">Linkedin</a>.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="animate-footer">
+       Eyseg - Energia Solar - &copy; 2025 | &reg; Todos os direitos reservados.
+    </footer>
+    <div class="chatbot-container">
+        <div id="chatbot-window">
+            <div class="chatbot-header">
+                <span>Assistente de eyseg</span>
+                <button id="close-chatbot">&times;</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages"></div>
+            <div class="chatbot-input">
+                <input type="text" id="user-input" placeholder="Digite 'Quem somos', 'Serviços' ou 'Contato'...">
+                <button id="send-message">Enviar</button>
+            </div>
+        </div>
+        <button id="chatbot-toggle" aria-label="Abrir chat">🤖</button>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
